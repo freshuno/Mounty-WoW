@@ -1,0 +1,168 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url("img/tlo.png");
+	/* Background pattern from Toptal Subtle Patterns */
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+
+}
+
+#logo {
+	width: 100%;
+	height: 50px;
+	background-color: #475b3b;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	padding: 5px 0px 5px 0px;
+	letter-spacing: 3px;
+	border-bottom: 3px solid #33402a;
+	text-shadow:
+		2px 2px 0 #33402a,
+		-2px 2px 0 #33402a,
+		-2px -2px 0 #33402a,
+		2px -2px 0 #33402a;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 878px;
+	padding: 10px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 3700px;
+
+}
+
+#spis {
+	width: 780px;
+	padding-left: 100px;
+
+
+
+}
+
+ol {
+	margin-top: 5px;
+}
+
+ol>li {
+	text-transform: uppercase;
+	list-style-type: none;
+	font-weight: 800;
+	padding: 5px;
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+
+ol>li>ul {
+	font-size: 18px;
+	text-transform: none;
+	font-weight: 400;
+	padding: 0px;
+	letter-spacing: 0px;
+	margin-top: 5px;
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+ol>li>ul>li {
+	margin: 0px;
+
+}
+
+ol>li>ul>li:before {
+	color: #485b3b;
+	content: "•";
+	margin-right: 5px;
+
+}
+
+.slajd {
+	padding: 20px 40px;
+	text-align: justify;
+
+}
+
+.tytulek {
+	font-size: 40px;
+	font-weight: 600;
+	border-bottom: 1px solid #ccc;
+
+
+}
+
+.procent {
+	text-shadow:
+		0.3px 0.3px 0 #ff0000,
+		-0.3px 0.3px 0 #ff0000,
+		-0.3px -0.3px 0 #ff0000,
+		0.3px -0.3px 0 #ff0000;
+
+}
+
+.obrazek {
+	margin-left: 500px;
+	height: 120px;
+	width: 316px;
+
+
+
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+
+
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c00815;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+
+}
+
+.scrollup {
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	top: 800px;
+	display: none;
+	border: 5px solid white;
+}
+
+#stopka {
+	background-color: #475b3b;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+
+}
+
+.input {
+	width: 500px;
+	background-color: white;
+	border: 4px solid black;
+	margin-left: auto;
+
+}
